@@ -41,9 +41,7 @@ INSTALLED_APPS = [
     'captcha',
 ]
 
-CAPTCHA_NOISE_FUNCTIONS = (
-      'captcha.helpers.math_challenge' , #點  
-)
+CAPTCHA_CHALLENGE_FUNCT = 'captcha.helpers.math_challenge'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
